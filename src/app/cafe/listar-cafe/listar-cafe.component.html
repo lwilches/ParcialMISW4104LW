@@ -1,0 +1,21 @@
+
+<table class="table">
+  <thead class="table-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nombre</th>
+      <th scope="col">Tipo</th>
+      <th scope="col">Region</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of listadoCafe "   >
+        <th scope="row"> {{item.id}} </th>
+        <td> {{item.nombre}} </td>
+        <td> {{item.tipo}} </td>
+        <td> {{item.region}} </td>
+    </tr>
+  </tbody>
+</table>
+<div><p style="margin-bottom: 2px;"><strong>Total café de origen:</strong> {{totalCafeOrigen}}</p></div>
+<div><p><strong>Total café blend: </strong> {{totalCafeBlend}}</p></div>

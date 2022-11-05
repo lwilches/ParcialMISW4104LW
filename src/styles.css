@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: IndieFlower;
+  src: url(./assets/fonts/IndieFlower-Regular.ttf);
+}
+
+.titulo{
+    font-family: IndieFlower;
+    color: black;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
